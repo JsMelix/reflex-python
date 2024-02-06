@@ -20,7 +20,7 @@ def index() -> rx.Component:
             rx.heading("Welcome to PythonWeb!", font_size="2em"),
             rx.box("Get started by Sebsx ", rx.code(filename, font_size="1em")),
             rx.link(
-                "Check out our docs!",
+                "Iniciando los estilos!",
                 href=docs_url,
                 border="0.1em solid",
                 padding="0.5em",
