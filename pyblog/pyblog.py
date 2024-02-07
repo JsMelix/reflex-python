@@ -17,8 +17,8 @@ def index() -> rx.Component:
     return rx.fragment(
         rx.color_mode_button(rx.color_mode_icon(), float="right"),
         rx.vstack(
-            rx.heading("Welcome to PythonWeb!", font_size="2em"),
-            rx.box("Get started by Sebsx ", rx.code(filename, font_size="1em")),
+            rx.heading("Welcome to PythonWeb! sitio web 3", font_size="2em"),
+            rx.box("Get started by Sebsx emprendedor tecnologico", rx.code(filename, font_size="1em")),
             rx.link(
                 "Iniciando los estilos!",
                 href=docs_url,
